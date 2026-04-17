@@ -1,7 +1,7 @@
 ---
 title:  "Resolución Kio"
 categories:
-  - Artículos
+  - Trayectoria Técnica
 tags:
   - KIO
 toc: true

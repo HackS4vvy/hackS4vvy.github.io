@@ -1,7 +1,7 @@
 ---
 title:  "Aprobar el eJPT a la primera"
 categories: 
-  - Artículos
+  - Trayectoria Técnica
 tags:
   - eJPT
 toc: true

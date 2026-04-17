@@ -1,7 +1,7 @@
 ---
 title:  "IT SUPPORT GOOGLE"
 categories:
-  - Certificaciones
+  - Trayectoria Técnica
 tags:
   - ITSUPPORT
 toc: true

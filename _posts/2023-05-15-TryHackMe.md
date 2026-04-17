@@ -1,7 +1,7 @@
 ---
 title:  "TryHackMe"
 categories:
-  - Artículos
+  - Trayectoria Técnica
 tags:
   - THM
 toc: true
