@@ -1,13 +1,31 @@
 ---
-layout: archive
-title: "Whoami.~"
+layout: single
+title: "Sobre mí"
 permalink: /about/
-author_profile: false
+author_profile: true
 ---
-Mi nombre es **`Julián García`**, soy Ingeniero en Entornos Virtuales y Negocios Digitales,  y un apasionado por el campo de la **`Ciberseguridad`**.
 
-Uno de entre tantos de mis objetivos es el poder trabajar como **`pentester`**, por lo cual he decidido mantenerme en constante capacitación, adquiriendo nuevos conocimientos y al mismo tiempo poniéndolos en práctica en entornos controlados creados por mi mismo o en plataformas como [Hackthebox](https://www.hackthebox.eu/) y [Tryhackme](https://tryhackme.com/), además de prepararme para varias certificaciones conocidas en el sector.
+### Perfil Profesional
+**Analista de Datos | Especialista en SQL, Excel y Power BI**
 
-Actualmente mis objetivos principales son obtener algunas certificaciones como la de Cisco Certified Network Associate **`CCNA`** a nivel de redes e infraestructura, Elearn Security Junior Penetration Tester **`eJPT`** y Elearn Security Certified Professional Penetration Tester **`eCPPTv2`** a nivel de ciberseguridad.
+Como profesional con una base en **Pentesting**, he evolucionado mi carrera hacia el **Análisis de Datos**, combinando el rigor técnico con la visión estratégica de negocio. Mi enfoque principal es la transformación de grandes volúmenes de datos brutos en reportes dinámicos que faciliten la toma de decisiones.
 
-Para finalizar quiero mencionar que el presente sitio web tiene como propósito aportar un granito más de arena a la comunidad con mis tips y notas que he ido documentando para con ellas ayudar a todas aquellas personas que desean incursionar en la ciberseguridad.
+### ¿Qué aporto como Analista?
+Mi experiencia técnica previa me permite abordar los datos con una perspectiva integral:
+*   **Eficiencia en SQL:** Capacidad para realizar extracciones complejas, limpieza de datos y optimización de consultas.
+*   **Dominio de Excel:** Análisis avanzado utilizando tablas dinámicas, funciones complejas y modelado de datos.
+*   **Visualización Estratégica:** Creación de tableros de control en **Power BI** enfocados en KPIs críticos de rendimiento y rentabilidad.
+*   **Mentalidad de Resolución de Problemas:** Habilidad heredada del soporte técnico para identificar anomalías en los datos y proponer soluciones efectivas.
+
+### Stack Técnico
+*   **Análisis de Datos:** SQL (SQL Server, PostgreSQL), Power BI, Microsoft Excel (Nivel Intermedio).
+*   **Lenguajes:** Python enfocado a la manipulación de datos (Pandas, Numpy).
+*   **Soporte y Sistemas:** Administración de infraestructura TI y fundamentos de seguridad informática aplicada a la gestión de datos.
+
+---
+
+### Mi Visión
+Busco integrar mi capacidad analítica en equipos donde la precisión y la integridad de los datos sean la prioridad. Estoy convencido de que un buen análisis es el puente entre la incertidumbre y el crecimiento de una empresa.
+
+¿Interesado en colaborar o conocer más sobre mis proyectos? **[Conectemos en LinkedIn](https://www.linkedin.com/in/juliangarcia--)** o escríbeme directamente.
+
