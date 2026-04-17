@@ -4,7 +4,7 @@
  * Licensed under MIT (https://github.com/mmistakes/minimal-mistakes/blob/master/LICENSE)
 */
 
-// 1. PRIMERO TUS VARIABLES (Los cambios de color)
+// 1. VARIABLES (Los cambios de color)
 $background-color: #ffffff;
 $text-color: #585858;
 $link-color: #004182;
@@ -14,6 +14,19 @@ $title-color: #343a40;
 
 /* Variables */
 @import "minimal-mistakes/variables";
+
+/* Color Biografía */
+.author__urls-wrapper {
+  // Cambia el texto de la biografía profesional
+  .author__bio {
+    color: $primary-color;
+  }
+
+  // Cambia el color de los textos "Email", "LinkedIn", "GitHub" y sus iconos
+  button, a {
+    color: $primary-color;
+  }
+}
 
 /* Mixins and functions */
 @import "minimal-mistakes/vendor/breakpoint/breakpoint";
