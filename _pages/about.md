@@ -6,7 +6,7 @@ author_profile: true
 ---
 
 ### Perfil Profesional
-**Analista de Datos | Especialista en SQL, Excel y Power BI**
+**Analista de Datos con enfoque en SQL, Excel, Power BI, Python**
 
 Como profesional con una base en **Pentesting**, he evolucionado mi carrera hacia el **Análisis de Datos**, combinando el rigor técnico con la visión estratégica de negocio. Mi enfoque principal es la transformación de grandes volúmenes de datos brutos en reportes dinámicos que faciliten la toma de decisiones.
 
