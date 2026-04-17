@@ -15,19 +15,6 @@ $title-color: #343a40;
 /* Variables */
 @import "minimal-mistakes/variables";
 
-/* Color Biografía */
-.author__urls-wrapper {
-  // Cambia el texto de la biografía profesional
-  .author__bio {
-    color: $primary-color;
-  }
-
-  // Cambia el color de los textos "Email", "LinkedIn", "GitHub" y sus iconos
-  button, a {
-    color: $primary-color;
-  }
-}
-
 /* Mixins and functions */
 @import "minimal-mistakes/vendor/breakpoint/breakpoint";
 @include breakpoint-set("to ems", true);
@@ -59,3 +46,16 @@ $title-color: #343a40;
 @import "minimal-mistakes/archive";
 @import "minimal-mistakes/sidebar";
 @import "minimal-mistakes/print";
+
+/* Color Biografía */
+.author__urls-wrapper {
+  // Cambia el texto de la biografía profesional
+  .author__bio {
+    color: $primary-color;
+  }
+
+  // Cambia el color de los textos "Email", "LinkedIn", "GitHub" y sus iconos
+  button, a {
+    color: $primary-color;
+  }
+}
