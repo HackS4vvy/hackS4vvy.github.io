@@ -1,7 +1,7 @@
 # main links
 main:
   - title: "Portafolio de Datos"
-    url: /categories/analisis-de-datos/
+    url: /portafolio-datos/
   - title: "Trayectoria Técnica" 
     url: /trayectoria-tecnica/
   - title: "Sobre mí"
