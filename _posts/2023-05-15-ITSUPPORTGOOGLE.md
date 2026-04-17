@@ -1,7 +1,7 @@
 ---
 title:  "IT SUPPORT GOOGLE"
 categories:
-  - Trayectoria Técnica
+  - Archivo
 tags:
   - ITSUPPORT
 toc: true
