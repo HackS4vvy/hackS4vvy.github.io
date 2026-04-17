@@ -16,11 +16,11 @@ minimal_mistakes_skin    : "neon" # "air", "aqua", "contrast", "dark", "dirt", "
 
 # Site Settings
 locale                   : "en-US"
-title                    : "Hack Notes"
+title                    : "Data Analysis & Insights"
 title_separator          : "-"
 subtitle                 : # site tagline that appears below site title in masthead
 name                     : "Julián García"
-description              : "An amazing website."
+description              : "Blog personal sobre análisis de datos, visualización y ciencia de datos"
 url                      : "https://hackS4vvy.github.io"
 baseurl                  : # the subpath of your site, e.g. "/blog"
 repository               : # GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"
@@ -104,15 +104,16 @@ analytics:
 
 # Site Author
 author:
-  name             : "Julian García"
+  name             : "Julian Ortega García"
   avatar           : "/assets/images/jules.jpg"
-  bio              : "EHCA / ITSUPPORT / Ethical Hacker / Virtual Environment & Digital Business Engineer"
+  bio              : "Data Insights / BI Analyst / Ciberseguridad / Virtual Environments & Digital Business Engineer"
+
 # location         : "Somewhere"
   email            :
   links:
     - label: "Email"
       icon: "fas fa-fw fa-envelope-square"
-      url: "mailto:julianortegagarcia6@gmail.com"
+      url: "mailto:ingjulianortegagarcia@gmail.com"
     - label: "Website"
       icon: "fas fa-fw fa-link"
       # url: "https://your-website.com"
