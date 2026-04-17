@@ -2,6 +2,8 @@
 title:  "TryHackMe"
 categories:
   - Archivo
+header:
+  teaser: /assets/images/tryhackme.png 
 tags:
   - THM
 toc: true

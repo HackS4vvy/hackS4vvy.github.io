@@ -2,6 +2,8 @@
 title:  "IT SUPPORT GOOGLE"
 categories:
   - Archivo
+header:
+  teaser: /assets/images/ITSUPPORTGOOGLE.png 
 tags:
   - ITSUPPORT
 toc: true

@@ -2,6 +2,8 @@
 title:  "Aprobar el eJPT a la primera"
 categories: 
   - Archivo
+header:
+  teaser: /assets/images/ejpt.png
 tags:
   - eJPT
 toc: true
