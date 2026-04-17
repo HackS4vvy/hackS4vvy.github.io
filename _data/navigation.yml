@@ -1,12 +1,8 @@
 # main links
 main:
-  - title: "Home"
-    url: /
-  - title: "Artículos"
-    url: /year-archive/
-  - title: "Categorías"
-    url: /categories/
-  - title: "Etiquetas"
-    url: /tags/
-  - title: "Acerca de"
+  - title: "Portafolio de Datos"
+    url: /categories/analisis-de-datos/
+  - title: "Trayectoria Técnica" 
+    url: /categories/archivo/
+  - title: "Sobre mí"
     url: /about/
