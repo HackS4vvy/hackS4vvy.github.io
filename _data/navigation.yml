@@ -3,6 +3,6 @@ main:
   - title: "Portafolio de Datos"
     url: /categories/analisis-de-datos/
   - title: "Trayectoria Técnica" 
-    url: /categories/archivo/
+    url: /trayectoria-tecnica/
   - title: "Sobre mí"
     url: /about/
