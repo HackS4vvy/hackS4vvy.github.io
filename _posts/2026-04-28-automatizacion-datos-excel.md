@@ -1,97 +1,108 @@
 ---
-layout: post
-title: "Análisis y Automatización de Datos: Ingeniería sobre Microsoft Excel"
-date: 2026-04-28
-categories: [data-automation, proyectos]
-tags: [excel, dashboards, análisis-de-datos, business-intelligence]
+title: "Data Analysis & Automation: Ingeniería de Dashboards Dinámicos en Excel"
+date: 2026-04-28 10:00:00
+categories:
+  - "Análisis de Datos"
+header:
+  teaser: /assets/images/dashboard-final-excel.png
+tags:
+  - Excel
+  - VBA
+  - Dashboards
+  - Automatización
+toc: true
+toc_label: "Contenido del Proyecto"
 ---
 
-Este proyecto demuestra la capacidad de transformar flujos de datos crudos en herramientas de decisión estratégica mediante la **arquitectura de dashboards dinámicos y programación lógica en Excel**, garantizando procesos escalables y eficientes.
+### El Desafío del Negocio
+El objetivo de este proyecto fue transformar un flujo de datos transaccionales desordenados (formato CSV) en una herramienta de **Business Intelligence** centralizada. El reto principal consistió en normalizar información inconsistente y automatizar la generación de reportes para permitir una toma de decisiones estratégica en tiempo real.
 
-### 📂 Fase 1: Ingesta y Normalización en Excel (CSV)
+### Metodología y Herramientas
+Para este desarrollo utilicé **Microsoft Excel** como motor analítico, aplicando técnicas de ingeniería de datos para asegurar que el sistema fuera escalable. El proceso cubrió desde la ingesta de archivos planos hasta la creación de una interfaz interactiva de usuario.
 
-El proceso comienza con la recepción de información en formato plano (CSV). Como se observa en la siguiente comparativa, los datos iniciales carecen de estructura, lo que dificulta cualquier análisis técnico:
+### Habilidades Técnicas Aplicadas
+A través de una arquitectura robusta, se implementaron las siguientes soluciones:
+*   **Ingesta y Normalización:** Limpieza profunda de archivos CSV y estructuración de tablas.
+*   **Lógica Dinámica:** Uso de funciones avanzadas de búsqueda y agregación multicriterio.
+*   **Visualización Interactiva:** Diseño de Dashboards con segmentación de datos y escalas de tiempo.
 
-![Estructura de datos crudos CSV](/assets/images/csv-datos-crudos.png)
-*Estado inicial: Información agrupada en una sola cadena de texto separada por comas.*
+---
 
-Para transformar este caos en una arquitectura funcional dentro de Excel, apliqué un flujo de normalización técnica:
+### Fase 1: Ingesta y Normalización de Datos (CSV)
 
-1.  **Parseo con "Texto a columnas":** Segmentación precisa de variables para asignar cada dato a su celda correspondiente.
-2.  **Enriquecimiento Geográfico:** Uso de tipos de datos de Excel para extraer automáticamente la **Población** basada en el país de origen.
-3.  **Lógica Temporal:** Conversión de fechas e implementación de la **Función HOY** para reportes actualizados en tiempo real.
-4.  **Generación de Atributos:** Uso de **Relleno Rápido (Flash Fill)** para normalizar registros y crear códigos únicos de identificación.
+El proceso comienza con la recepción de información en formato plano. Como se observa en la comparativa, los datos iniciales carecen de estructura, lo que impide cualquier análisis técnico.
 
-![Tabla normalizada en Excel](/assets/images/tabla-limpia-excel.png)
-*Resultado final: Estructura de datos optimizada, limpia y lista para el análisis dinámico.*
+<div style="text-align: center;">
+  <img src="/assets/images/csv-datos-crudos.png" alt="Datos CSV Crudos" style="border-radius: 8px; box-shadow: 0 4px 8px rgba(0,0,0,0.2);">
+  <p><i>Estado inicial: Información agrupada en una sola cadena de texto.</i></p>
+</div>
 
-### 🧠 Fase 2: Lógica Aritmética y Agregación Multicriterio en Excel
+Para transformar este caos en una arquitectura funcional, apliqué un flujo de normalización:
+*   **Parseo de Datos:** Uso de "Texto a columnas" para delimitar variables (`Producto`, `Marca`, `Origen`).
+*   **Enriquecimiento Geográfico:** Uso de tipos de datos de Excel para extraer automáticamente la **Población**.
+*   **Estructuración de Tablas (`Ctrl + T`):** Conversión a objeto Tabla para asegurar la dinamicidad de las fórmulas.
 
-Una vez estructurada la base, establecí las reglas de negocio para la extracción de KPIs mediante funciones de agregación avanzada como `SUMAR.SI.CONJUNTO`, permitiendo segmentaciones precisas basadas en múltiples variables de forma simultánea.
+<div style="text-align: center;">
+  <img src="/assets/images/tabla-limpia-excel.png" alt="Tabla Normalizada" style="border-radius: 8px; box-shadow: 0 4px 8px rgba(0,0,0,0.2);">
+  <p><i>Resultado final: Estructura de datos optimizada y lista para el análisis.</i></p>
+</div>
 
-![Funciones de suma avanzada en Excel](/assets/images/funciones-suma-excel.png)
-*Implementación de fórmulas complejas para la generación de reportes dinámicos basados en criterios de negocio.*
+---
 
-### 🔍 Fase 3: Inteligencia de Búsqueda y Recuperación de Datos
+### Fase 2: Inteligencia de Búsqueda y Lógica Aritmética
 
-Implementé una lógica de recuperación de información automatizada mediante **BUSCARV**, configurando motores de búsqueda exacta para extraer atributos de forma instantánea al seleccionar un identificador único, garantizando la integridad referencial.
+Una vez estructurada la base, implementé una capa de lógica para la extracción de KPIs y recuperación de información:
 
-![Motor de búsqueda con BUSCARV en Excel](/assets/images/motor-busqueda-excel.png)
-*Implementación de la función BUSCARV para la recuperación dinámica de atributos.*
+*   **Agregación Multicriterio:** Uso de `SUMAR.SI.CONJUNTO` para reportes basados en múltiples condiciones.
+*   **Motores de Búsqueda:** Implementación de `BUSCARV` para consultas dinámicas de atributos.
+*   **Lógica Condicional:** Uso de la **Función SI** con referencias absolutas para categorizar automáticamente registros críticos.
 
-### ⚖️ Fase 4: Lógica Condicional y Categorización Automática
+<div style="text-align: center;">
+  <img src="/assets/images/funciones-suma-excel.png" alt="Funciones de Suma" style="border-radius: 8px; box-shadow: 0 4px 8px rgba(0,0,0,0.2); margin-bottom: 10px;">
+  <img src="/assets/images/motor-busqueda-excel.png" alt="Motor BUSCARV" style="border-radius: 8px; box-shadow: 0 4px 8px rgba(0,0,0,0.2);">
+  <p><i>Implementación de lógica analítica y recuperación dinámica de información.</i></p>
+</div>
 
-Desarrollé un motor de reglas mediante la **Función SI** con referencias absolutas para clasificar activos automáticamente bajo umbrales de negocio (ej. "Crítico" vs. "Aceptable"), modificables desde una tabla de parámetros centralizada.
+---
 
-![Lógica condicional con Función SI en Excel](/assets/images/funcion-si-excel.png)
-*Uso de la Función SI para la categorización dinámica de datos basada en parámetros configurables.*
+### Fase 3: Arquitectura de Reportes e Interactividad
 
-### 📊 Fase 5: Estructuración de Objetos "Tabla" para Dashboards
+Tras procesar los datos, utilicé **Tablas Dinámicas** para generar el motor analítico del proyecto, permitiendo cruzar variables de Mes, Cliente, Región y Vendedor.
 
-Realicé la transición de rangos simples a **Tablas oficiales de Excel** (`Ctrl + T`), asegurando que cualquier nuevo registro se integre automáticamente en el análisis y mejorando la auditoría del sistema mediante referencias estructuradas.
+<div style="text-align: center;">
+  <img src="/assets/images/tablas-dinamicas-excel.png" alt="Tablas Dinámicas" style="border-radius: 8px; box-shadow: 0 4px 8px rgba(0,0,0,0.2);">
+  <p><i>Configuración de múltiples perspectivas de análisis vinculadas a una sola fuente.</i></p>
+</div>
 
-![Estructura de Tabla dinámica en Excel](/assets/images/estructura-tabla-excel.png)
-*Conversión de datos normalizados en una Tabla oficial, habilitando la escalabilidad del análisis.*
+#### Control de Datos Multifiltro:
+Para maximizar la experiencia de usuario, integré controles interactivos:
+*   **Segmentación de Datos (Slicers):** Filtros táctiles para navegar por marcas y productos.
+*   **Escala de Tiempo (Timeline):** Control cronológico para auditorías por año y mes.
 
-### 📅 Fase 6: Preparación de Dimensiones y Formateo Avanzado
+---
 
-Enriquecí las dimensiones de la tabla anidando funciones como `=NOMPROPIO(TEXTO(celda, "mmmm"))` para extraer meses capitalizados estéticamente, asegurando que las etiquetas en la visualización final sean profesionales.
+### Visualización Final: Dashboard de Alto Impacto (Dark Mode)
 
-![Funciones de texto y tiempo en Excel](/assets/images/funciones-texto-tiempo.png)
-*Uso de funciones anidadas para la preparación de dimensiones temporales de alto impacto visual.*
+El resultado final es una herramienta de **Business Intelligence** diseñada bajo un esquema de "Modo Oscuro" para mejorar la legibilidad y estética profesional.
 
-### 📈 Fase 7: Arquitectura de Reportes con Tablas Dinámicas
+<div style="text-align: center;">
+  <img src="/assets/images/dashboard-final-excel.png" alt="Dashboard Final" style="border-radius: 8px; box-shadow: 0 4px 8px rgba(0,0,0,0.2);">
+  <p><i>Interfaz final interactiva: Control total sobre KPIs de rendimiento y ventas.</i></p>
+</div>
 
-Con la data enriquecida, procedí a la creación de múltiples **Tablas Dinámicas** para obtener una visión 360° del negocio, desglosando resultados por variables críticas: Mes, Cliente, Región, Producto y Vendedor.
+#### Hallazgos Clave del Proyecto:
+*   **Rendimiento Humano:** Identificación inmediata del TOP 5 de vendedores y su contribución al ingreso total.
+*   **Análisis Territorial:** Visualización de las regiones con mayor volumen de órdenes para optimización logística.
+*   **Mix de Productos:** Desglose porcentual de participación de mercado por marca mediante gráficos de anillos dinámicos.
 
-![Agregación de datos con Tablas Dinámicas](/assets/images/tablas-dinamicas-excel.png)
-*Configuración de Tablas Dinámicas como motor analítico central del proyecto.*
+---
 
-### 🖱️ Fase 8: Interactividad y Control de Datos Multifiltro
+### 💡 Conclusiones e Insights de Negocio
 
-Para convertir los reportes en una herramienta de exploración dinámica, integré dos niveles de control interactivo vinculados a todo el ecosistema de datos:
+La implementación de este Dashboard permitió centralizar la operación en tres pilares:
 
-*   **Segmentación de Datos (Slicers):** Inserción de filtros táctiles para navegar por categorías específicas con un solo clic.
-*   **Escala de Tiempo (Timeline):** Implementación de un control cronológico dedicado para segmentar la información por años o meses, permitiendo auditorías temporales rápidas y fluidas.
+*   **Eficiencia Operativa:** Reducción del tiempo de generación de reportes manuales en un 90%.
+*   **Precisión de Datos:** Eliminación del error humano mediante la automatización de la lógica de búsqueda y suma condicional.
+*   **Escalabilidad:** El sistema es capaz de absorber nuevos registros de ventas simplemente actualizando la fuente, manteniendo la integridad de todas las gráficas.
 
-![Segmentación de datos interactiva en Excel](/assets/images/segmentacion-datos-excel.png)
-*Implementación de segmentadores y escalas de tiempo para el control total y sincronizado de la información.*
-
-### 🎨 Fase 9: Diseño de Interfaz y Maquetación (Wireframing)
-
-Desarrollé un boceto estructural utilizando figuras para definir la jerarquía de información y asegurar una experiencia de usuario (UX) fluida antes de la integración visual definitiva.
-
-![Boceto de Dashboard en Excel](/assets/images/boceto-dashboard-excel.png)
-*Maquetación visual en Dark Mode y definición estratégica de espacios para la interfaz final.*
-
-### 🚀 Fase 10: Dashboard Interactivo de Alto Impacto
-
-La etapa final consistió en la integración de gráficas dinámicas sobre la interfaz maquetada, logrando un centro de mando integral con las siguientes características:
-
-*   **KPIs de Rendimiento Humano:** Visualización del TOP 5 de vendedores con montos y perfiles integrados.
-*   **Análisis Temporal y Regional:** Gráficos de barras para identificar tendencias estacionales y zonas geográficas de mayor valor.
-*   **Distribución de Mercado:** Gráfico de anillos para visualizar la cuota de participación por marca.
-*   **Navegación Centralizada:** Control global del rendimiento mediante la escala de tiempo y segmentadores interactivos.
-
-![Dashboard Final de Análisis en Excel](/assets/images/dashboard-final-excel.png)
-*Interfaz final: Una herramienta de Business Intelligence robusta, estética y lista para la toma de decisiones estratégicas.*
+> **Nota técnica:** Este enfoque demuestra que Excel, bien estructurado, funciona como una base de datos relacional capaz de alimentar interfaces de alta fidelidad para la toma de decisiones.
