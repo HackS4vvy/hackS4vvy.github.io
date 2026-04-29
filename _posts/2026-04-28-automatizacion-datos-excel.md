@@ -24,7 +24,7 @@ Para este desarrollo utilicé **Microsoft Excel** como motor analítico, aplican
 A través de una arquitectura robusta, se implementaron las siguientes soluciones:
 *   **Ingesta y Normalización:** Limpieza profunda de archivos CSV y estructuración de tablas.
 *   **Lógica Dinámica:** Uso de funciones avanzadas de búsqueda y agregación multicriterio.
-*   **Visualización Interactiva:** Diseño de Dashboards con segmentación de datos y escalas de tiempo.
+*   **Diseño de Interfaz:** Maquetación funcional (Wireframing) y visualización de alto impacto.
 
 ---
 
@@ -65,19 +65,30 @@ Una vez estructurada la base, implementé una capa de lógica para la extracció
 
 ---
 
-### Fase 3: Arquitectura de Reportes e Interactividad
+### Fase 3: Diseño de Interfaz y Maquetación (Wireframing)
 
-Tras procesar los datos, utilicé **Tablas Dinámicas** para generar el motor analítico del proyecto, permitiendo cruzar variables de Mes, Cliente, Región y Vendedor.
+Antes de integrar las gráficas finales, desarrollé un **boceto estructural** utilizando figuras y formas nativas de Excel. Esta fase de maquetación permitió definir la jerarquía de información y asegurar una experiencia de usuario fluida.
 
 <div style="text-align: center;">
-  <img src="/assets/images/tablas-dinamicas-excel.png" alt="Tablas Dinámicas" style="border-radius: 8px; box-shadow: 0 4px 8px rgba(0,0,0,0.2);">
-  <p><i>Configuración de múltiples perspectivas de análisis vinculadas a una sola fuente.</i></p>
+  <img src="/assets/images/boceto-dashboard-excel.png" alt="Boceto Dashboard" style="border-radius: 8px; box-shadow: 0 4px 8px rgba(0,0,0,0.2);">
+  <p><i>Maquetación funcional: Definición de espacios para KPIs, gráficos y controles de filtro.</i></p>
 </div>
 
+---
+
+### Fase 4: Arquitectura de Reportes e Interactividad
+
+Tras procesar los datos, utilicé **Tablas Dinámicas** para generar el motor analítico, permitiendo cruzar variables de Mes, Cliente y Región.
+
 #### Control de Datos Multifiltro:
-Para maximizar la experiencia de usuario, integré controles interactivos:
+Para maximizar la interacción, integré controles que responden en tiempo real:
 *   **Segmentación de Datos (Slicers):** Filtros táctiles para navegar por marcas y productos.
 *   **Escala de Tiempo (Timeline):** Control cronológico para auditorías por año y mes.
+
+<div style="text-align: center;">
+  <img src="/assets/images/segmentacion-datos-excel.png" alt="Segmentadores" style="border-radius: 8px; box-shadow: 0 4px 8px rgba(0,0,0,0.2);">
+  <p><i>Interactividad: Sincronización de filtros para una exploración de datos fluida.</i></p>
+</div>
 
 ---
 
